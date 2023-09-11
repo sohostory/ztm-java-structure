@@ -3,7 +3,7 @@ package exceptions.ex4custom;
 public class CustomCheckedException {
     public static void validateAge(int age) throws InvalidAgeException {
         if(age < 0 || age > 120) {
-            throw new InvalidAgeException("the age is invalid.")
+            throw new InvalidAgeException("the age is invalid.");
         }
     }
 
